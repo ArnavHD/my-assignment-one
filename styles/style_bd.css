@@ -352,4 +352,53 @@ sub{
   padding-top: 25px;
   padding-left: 24px;
   background-origin: content-box;
+  margin-bottom: 80px;
+}
+
+/* Table section */
+table, td, tr{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+}
+
+.topic-column{
+  height: 92px;
+  width: 1017px;
+  font-size: 16px;
+  padding-left: 24px;
+}
+.header-column{
+  height: 92px;
+  width: 1017px;
+}
+.ans-column{
+  width: 200px;
+  height: 92px;
+  text-align: center;
+}
+.borderless{
+  border-left: none;
+}
+.header-container{
+  background-color: rgba(198, 228, 214, 1);
+}
+.ques{
+  font-size: 20px;
+}
+/* Dropdown menue */
+.select{
+  width: 57%;
+  height: 44px;
+  border: 1px solid rgba(14, 14, 14, 1);
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 4px;
+  font-size: 16px;
+}
+.table-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.opinion{
+  margin-bottom: 80px;
 }
