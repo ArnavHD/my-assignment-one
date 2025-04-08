@@ -556,3 +556,59 @@ table, td, tr{
 }
 
 /* News Letter section */
+.letter{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-top: 80px;
+}
+.letter-sub{
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.letter-container{
+  background-color: rgba(198, 228, 214, 1);
+  width: 1250px;
+  height: 395px;
+  align-items: center;
+  text-align: center;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.email{
+  width: 750px;
+  height: 55px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px 0 0 8px;
+  padding-left: 40px;
+}
+
+.subscribe{
+  width: 150px;
+  height: 55px;
+  border: none;
+  background-color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 0 8px 8px 0;
+}
+.text-letter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
