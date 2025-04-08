@@ -142,7 +142,7 @@ nav{
 .body-margin{
     margin-left: 160px;
     margin-right: 160px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(241, 241, 243, 1);
 }
 /* Shared */
 
@@ -439,6 +439,8 @@ table, td, tr{
   margin-bottom: 24px;
   /* align-items:normal; */
   /* text-align:justify; */
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
 }
 .news-text-1{
   width: 744px;
@@ -504,6 +506,8 @@ table, td, tr{
   flex-direction: row;
   justify-content: center;
   margin-bottom: 24px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
 }
 /* .news2-title{
   margin: ;
@@ -684,3 +688,8 @@ table, td, tr{
   width: 1122px;
   color: rgba(14, 14, 14, 0.1);
 }
+/* Backgrounds */
+/* .sec1{
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+} */
