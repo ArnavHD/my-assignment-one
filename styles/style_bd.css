@@ -541,8 +541,8 @@ table, td, tr{
   cursor: pointer;
 }
 .donate-card:hover{
-  background-color: midnightblue;
-  color: aqua;
+  background-color: lime;
+  /* color: aqua; */
 }
 .donation-cards{
   display: flex;
@@ -586,8 +586,8 @@ table, td, tr{
   cursor: pointer;
 }
 .submit1:hover{
-  background-color: green;
-  color: red;
+  background-color: midnightblue;
+  color: aqua;
 }
 .sub-dona{
 
