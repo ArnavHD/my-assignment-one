@@ -137,6 +137,7 @@ nav{
 .body-margin{
     margin-left: 160px;
     margin-right: 160px;
+    background-color: rgba(255, 255, 255, 1);
 }
 /* Shared */
 
@@ -487,3 +488,71 @@ table, td, tr{
   width: 408px;
   height: 306px;
 }
+/* Donation page */
+.txt-donation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.donation-font{
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate-card{
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.donation-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:24px;
+  margin-bottom: 32px;
+}
+.donation-container{
+  margin-top: 56px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 80px;
+}
+.donatation-form{
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.placeholder-font{
+  font-size: 20px;
+  font-weight: normal;
+}
+.submit1{
+  padding: 17px 34px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  border: none;
+  margin-top: 32px;
+  
+}
+.sub-dona{
+
+  align-items: center;
+  text-align: center;
+}
+.back{
+  background-color: rgba(198, 228, 214, 1);
+}
+
+/* News Letter section */
